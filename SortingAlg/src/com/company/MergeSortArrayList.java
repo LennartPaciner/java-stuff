@@ -1,6 +1,7 @@
 package com.company;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 //Merge-Sort Sort Algorithmus mit ArrayList als Datenstruktur in O(n * log(n)). Zählt auch Fehlstände der Elemente in konstanter Zeit.
 public class MergeSortArrayList {
@@ -82,11 +83,17 @@ public class MergeSortArrayList {
     public static void main(String[] args) {
         MergeSortArrayList mergeSortArrayList = new MergeSortArrayList();
 
-        //Lege Test ArrayList an
         List<Integer> array = new ArrayList<>();
-        array = List.of(9,1,4,20,31,22,6,4,2);
-        //array = List.of(2,3,8,6,4);
-
+        //Scanner für Benutzereingabe. Stoppt bei leerer Eingabe.
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Dynamisches Array mit Integer Werten füllen. Leere Eingabe zum Beenden.");
+        System.out.print("Eingeben: ");
+        for(String line = scanner.nextLine(); !line.isEmpty(); line = scanner.nextLine()){
+           System.out.print("Eingeben: ");
+           int k = Integer.parseInt(line);
+           array.add(k);
+        }
+        
         System.out.println(mergeSortArrayList.mergesort(array));
         System.out.print("Fehlstände: " + mergeSortArrayList.fehlstand);
 

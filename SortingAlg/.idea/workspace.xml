@@ -39,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FehlstandArray">
+  <component name="RunManager" selected="Application.MergeSortArrayList">
     <configuration name="FehlstandArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.FehlstandArray" />
       <module name="SortingAlg" />
@@ -83,8 +83,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FehlstandArray" />
         <item itemvalue="Application.MergeSortArrayList" />
+        <item itemvalue="Application.FehlstandArray" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

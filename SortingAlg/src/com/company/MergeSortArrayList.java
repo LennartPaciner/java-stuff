@@ -2,7 +2,7 @@ package com.company;
 import java.util.ArrayList;
 import java.util.List;
 
-//Merge-Sort Sort Algorithmus mit ArrayList als Datenstruktur. Zählt auch Fehlstände der Elemente.
+//Merge-Sort Sort Algorithmus mit ArrayList als Datenstruktur in O(n * log(n)). Zählt auch Fehlstände der Elemente in konstanter Zeit.
 public class MergeSortArrayList {
     private int fehlstand = 0;
 

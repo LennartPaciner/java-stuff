@@ -2,9 +2,9 @@ package com.company;
 import java.util.ArrayList;
 import java.util.List;
 
-//Merge-Sort Sort Algorithmus mit ArrayList als Datenstruktur
+//Merge-Sort Sort Algorithmus mit ArrayList als Datenstruktur. Zählt auch Fehlstände der Elemente.
 public class MergeSortArrayList {
-
+    private int fehlstand = 0;
 
     /**
      * Rekursive Funktion, die ArrayList übergeben bekommt und diese dann in zwei Hälfte splittet und diese rekursiv weiter bis auf
@@ -45,6 +45,7 @@ public class MergeSortArrayList {
         ArrayList<Integer> newArr = new ArrayList<>();
         int indexL = 0;
         int indexR = 0;
+        int fehlstand = 0;
 
         while (indexL< a1.size() && indexR < a2.size()){
             if(a1.get(indexL) < a2.get(indexR)) {
@@ -53,6 +54,9 @@ public class MergeSortArrayList {
             } else{
                 newArr.add(a2.get(indexR));
                 indexR += 1;
+                fehlstand += 1;
+                //Addiere Fehlstände
+                countFehlstand(fehlstand);
             }
         }
         while (indexL < a1.size()){
@@ -66,6 +70,14 @@ public class MergeSortArrayList {
         return newArr;
     }
 
+    /**
+     * Zähle Fehlstände im Array
+     * @param zahl = Fehlstand pro Schleifendurchlauf. Rekursiv, deswegen etwas verwirrend.
+     */
+    public void countFehlstand(int zahl){
+        fehlstand = fehlstand+zahl;
+    }
+
 
     public static void main(String[] args) {
         MergeSortArrayList mergeSortArrayList = new MergeSortArrayList();
@@ -73,8 +85,10 @@ public class MergeSortArrayList {
         //Lege Test ArrayList an
         List<Integer> array = new ArrayList<>();
         array = List.of(9,1,4,20,31,22,6,4,2);
+        //array = List.of(2,3,8,6,4);
 
         System.out.println(mergeSortArrayList.mergesort(array));
+        System.out.print("Fehlstände: " + mergeSortArrayList.fehlstand);
 
     }
 }

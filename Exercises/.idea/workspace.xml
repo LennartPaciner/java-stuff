@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6400fc7d-d9b9-4981-9a7a-92efe6d9a13c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/MergeSortArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MergeSortArrayList.java" afterDir="false" />
-    </list>
+    <list default="true" id="e3427d3f-bd41-4579-a15d-c0e237144580" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,15 +16,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PATH_TO_GIT" value="C:\Program Files\Git\cmd\git.exe" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="ProjectId" id="1Skmt8RjY2sDE9VHRGdnk5O7kq9" />
+  <component name="ProjectId" id="1Sz3JUFDzRLzKjymPeREim7RrUT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
-    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -42,23 +37,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSortArrayList">
-    <configuration name="FehlstandArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.FehlstandArray" />
-      <module name="SortingAlg" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.Exercise1">
+    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise1" />
+      <module name="Exercises" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="SortingAlg" />
+      <module name="Exercises" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -66,29 +55,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.MergeSortArrayList" />
-      <module name="SortingAlg" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.FehlstandArray" />
-      <item itemvalue="Application.MergeSortArrayList" />
+      <item itemvalue="Application.Exercise1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeSortArrayList" />
-        <item itemvalue="Application.FehlstandArray" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Exercise1" />
       </list>
     </recent_temporary>
   </component>
@@ -97,11 +70,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6400fc7d-d9b9-4981-9a7a-92efe6d9a13c" name="Default Changelist" comment="" />
-      <created>1572116179243</created>
+      <changelist id="e3427d3f-bd41-4579-a15d-c0e237144580" name="Default Changelist" comment="" />
+      <created>1572552524576</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572116179243</updated>
+      <updated>1572552524576</updated>
     </task>
     <servers />
   </component>
@@ -110,9 +83,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>

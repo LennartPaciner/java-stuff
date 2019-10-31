@@ -93,7 +93,7 @@ public class MergeSortArrayList {
            int k = Integer.parseInt(line);
            array.add(k);
         }
-        
+
         System.out.println(mergeSortArrayList.mergesort(array));
         System.out.print("Fehlstände: " + mergeSortArrayList.fehlstand);
 

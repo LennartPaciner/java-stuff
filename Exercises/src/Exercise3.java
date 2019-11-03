@@ -8,6 +8,7 @@ generische tests
 public class Exercise3 {
 
     public <T> Pair cons(Pair<T, T> a){
+        System.out.println(a.getKey());
         return a;
     }
 
@@ -23,6 +24,9 @@ public class Exercise3 {
 
 
     public static void main(String[] args) {
+        Exercise3 exercise3 = new Exercise3();
+        Pair<Integer, Integer> paar = new Pair<>(5, 6);
+        exercise3.cons(paar);
 
 
     }

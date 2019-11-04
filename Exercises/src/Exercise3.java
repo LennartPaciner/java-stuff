@@ -7,11 +7,18 @@ generische tests
  */
 public class Exercise3 {
 
-    public <T, E> Pair cons(Pair<T, E> a){
+    /**
+     * Generische Funktion um ein Tupel zu bilden.
+     * @param a = erstes Argument
+     * @param b = zweites Argument
+     * @param <T>
+     * @param <E>
+     * @return ein Tupel aus übergebenen Argumenten
+     */
+    public <T, E> Pair cons(T a, E b){
 
-        System.out.println(a.getValue());
-        System.out.println(a.getKey());
-        return a;
+        Pair<T, E> paar = new Pair<>(a, b);
+        return paar;
     }
 
     /*public class Pair<T, U> {
@@ -27,10 +34,16 @@ public class Exercise3 {
 
     public static void main(String[] args) {
         Exercise3 exercise3 = new Exercise3();
-        //Pair(key,value)
+        
+        //Pair(key,value). Testvariablen.
         Pair<Integer, Integer> paar = new Pair<>(5, 6);
-        Pair<Double, String> paar2 = new Pair<>(3.1, "okay");
-        exercise3.cons(paar2);
+        String testString = "hallo";
+        int testInt = 19;
+        double testDouble = 5.5;
+        char testChar = 'x';
+
+        //Print paar
+        //System.out.println(exercise3.cons(testInt, testString).getKey().toString()+ " " + exercise3.cons(testInt, testString).getValue().toString());
 
 
     }

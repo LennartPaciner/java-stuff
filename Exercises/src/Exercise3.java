@@ -15,9 +15,7 @@ public class Exercise3 {
      * @return ein Tupel aus übergebenen Argumenten
      */
     public <T, E> Pair cons(T a, E b){
-
-        Pair<T, E> paar = new Pair<>(a, b);
-        return paar;
+        return new Pair<>(a, b);
     }
 
     /**

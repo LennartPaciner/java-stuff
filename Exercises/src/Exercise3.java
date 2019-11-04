@@ -40,16 +40,6 @@ public class Exercise3 {
         return a.getValue();
     }
 
-    /*public class Pair<T, U> {
-        public final T t;
-        public final U u;
-
-        public Pair(T t, U u) {
-            this.t= t;
-            this.u= u;
-        }
-    }*/
-
 
     public static void main(String[] args) {
         Exercise3 exercise3 = new Exercise3();

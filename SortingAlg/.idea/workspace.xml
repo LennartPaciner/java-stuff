@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6400fc7d-d9b9-4981-9a7a-92efe6d9a13c" name="Default Changelist" comment="" />
+    <list default="true" id="6400fc7d-d9b9-4981-9a7a-92efe6d9a13c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/company/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CountingSort.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercises" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>

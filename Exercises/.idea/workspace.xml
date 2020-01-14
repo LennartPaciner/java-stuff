@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e3427d3f-bd41-4579-a15d-c0e237144580" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercise4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortingAlg/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SortingAlg/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortingAlg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SortingAlg/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortingAlg/src/com/company/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SortingAlg/src/com/company/CountingSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +30,7 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SortingAlg" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -41,14 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exercise3">
-    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercise1" />
-      <module name="Exercises" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.KruskalGraph">
     <configuration name="Exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercise2" />
       <module name="Exercises" />
@@ -63,27 +60,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+    <configuration name="Exercise4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise4" />
       <module name="Exercises" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Huffman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Huffman" />
+      <module name="Exercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KruskalGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KruskalGraph" />
+      <module name="Exercises" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Exercise1" />
       <item itemvalue="Application.Exercise2" />
       <item itemvalue="Application.Exercise3" />
+      <item itemvalue="Application.Huffman" />
+      <item itemvalue="Application.Exercise4" />
+      <item itemvalue="Application.KruskalGraph" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KruskalGraph" />
+        <item itemvalue="Application.Huffman" />
+        <item itemvalue="Application.Exercise4" />
         <item itemvalue="Application.Exercise3" />
         <item itemvalue="Application.Exercise2" />
-        <item itemvalue="Application.Exercise1" />
       </list>
     </recent_temporary>
   </component>
